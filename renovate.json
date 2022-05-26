@@ -15,6 +15,6 @@
             "packageNames": ["pritunl/pritunl"],
             "updateTypes": ["minor", "major", "patch"],
             "enabled": true
-        },
-      ]
+        }
+  ]
 }
