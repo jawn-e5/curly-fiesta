@@ -4,6 +4,7 @@
   ],
     "regexManagers": [
     {
+      "fileMatch": ["^Dockerfile$"],
       "matchStrings": [
         "datasource=(?<datasource>.*?) depName=(?<depName>.*?)( versioning=(?<versioning>.*?))?\\sENV VERSION=(?<currentValue>.*)\\s"
       ],
