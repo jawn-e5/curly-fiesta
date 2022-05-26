@@ -7,7 +7,7 @@
       "fileMatch": ["^Dockerfile$"],
       "matchStrings": ["ENV VERSION (?<currentValue>.*?) # renovate: depName=(?<depName>.*?)\\n"],
       "versioningTemplate": "regex:^(?<major>\\d+)(\\.(?<minor>\\d+))?(\\.(?<patch>\\d+))?(.(?<compatibility>.*))?$",
-      "datasourceTemplate": "github-tags"
+      "datasourceTemplate": "github-releases"
     }
   ]
 }
