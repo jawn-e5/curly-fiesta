@@ -17,11 +17,5 @@
       ],
       "versioningTemplate": "git"
     }
-  ],
-    "packageRules": [
-    {
-      "matchPackageNames": ["pritunl/pritunl"],
-      "extractVersion": "^(?<version>v\\d+\\.\\d+)"
-    }
   ]
 }
