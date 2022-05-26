@@ -20,7 +20,7 @@
   ],
     "packageRules": [
     {
-      "matchPackageNames": ["pritunl"],
+      "matchPackageNames": ["pritunl/pritunl"],
       "extractVersion": "^(?<version>v\\d+\\.\\d+)"
     }
   ]
