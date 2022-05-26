@@ -15,7 +15,7 @@
       "matchStrings": [
         "#\\s*renovate:\\s*datasource=(?<datasource>.*?) depName=(?<depName>.*?)( versioning=(?<versioning>.*?))?\\sENV VERSION (?<currentValue>.*)"
       ],
-      "versioningTemplate": "git"
+      "versioningTemplate": "loose"
     }
   ]
 }
