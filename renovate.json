@@ -5,9 +5,8 @@
     "regexManagers": [
     {
       "fileMatch": ["^Dockerfile$"],
-      "matchStrings": [
-        "datasource=(?<datasource>.*?) depName=(?<depName>.*?)( versioning=(?<versioning>.*?))?\\sENV VERSION (?<currentValue>.*)"
-      ]
+      "matchStrings": ["ENV VERSION (?<currentValue>.*?) # renovate: depName=(?<depName>.*?)\\n"],
+      "datasourceTemplate": "github-releases"
     }
   ]
 }
