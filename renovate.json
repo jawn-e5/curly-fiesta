@@ -15,13 +15,13 @@
       "matchStrings": [
         "#\\s*renovate:\\s*datasource=(?<datasource>.*?) depName=(?<depName>.*?)( versioning=(?<versioning>.*?))?\\sENV VERSION (?<currentValue>.*)"
       ],
-      "versioningTemplate": "semver"
+      "versioningTemplate": "regex:^(?<major>\\d+)(\\.(?<minor>\\d+))?(\\.(?<patch>\\d+))?(.(?<compatibility>.*))?$"
     }
   ],
     "packageRules": [
     {
       "matchPackageNames": ["pritunl"],
-      "extractVersion": "^pritunl v(?<version>.*)$"
+      "extractVersion": "^(?<version>v\\d+\\.\\d+)"
     }
   ]
 }
