@@ -1,4 +1,4 @@
-FROM alpine:3.15
+FROM alpine:3.16
 
 ENV VERSION 1.30.3156.74
 
