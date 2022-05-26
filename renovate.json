@@ -15,7 +15,7 @@
       "matchStrings": [
         "#\\s*renovate:\\s*datasource=(?<datasource>.*?) depName=(?<depName>.*?)( versioning=(?<versioning>.*?))?\\sENV VERSION (?<currentValue>.*)"
       ],
-      "versioningTemplate": "regex:^(?<major>\\d+)(\\.(?<minor>\\d+))?(\\.(?<patch>\\d+))?(.(?<compatibility>.*))?$"
+      "versioningTemplate": "git"
     }
   ],
     "packageRules": [
