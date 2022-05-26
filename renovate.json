@@ -6,7 +6,7 @@
     {
       "fileMatch": ["^Dockerfile$"],
       "matchStrings": ["ENV VERSION (?<currentValue>.*?) # renovate: depName=(?<depName>.*?)\\n"],
-      "datasourceTemplate": "github-releases"
+      "datasourceTemplate": "github-tags"
     }
   ]
 }
