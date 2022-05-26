@@ -17,5 +17,11 @@
       ],
       "versioningTemplate": "regex:^(?<major>\\d+)(\\.(?<minor>\\d+))?(\\.(?<patch>\\d+))?(.(?<compatibility>.*))?$"
     }
+  ],
+    "packageRules": [
+    {
+      "matchPackageNames": ["pritunl/pritunl"],
+      "versioning": "regex:^(?<major>\\d+)(\\.(?<minor>\\d+))?(\\.(?<patch>\\d+))?(.(?<compatibility>.*))?$"
+    }
   ]
 }
