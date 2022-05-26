@@ -7,8 +7,7 @@
       "fileMatch": ["^Dockerfile$"],
       "matchStrings": [
         "datasource=(?<datasource>.*?) depName=(?<depName>.*?)( versioning=(?<versioning>.*?))?\\sENV VERSION (?<currentValue>.*)\\s"
-      ],
-      "versioningTemplate": "regex:^(?<major>\\d+)(\\.(?<minor>\\d+))?(\\.(?<patch>\\d+))?(.(?<compatibility>.*))?$"
+      ]
     }
   ]
 }
