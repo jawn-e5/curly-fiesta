@@ -2,6 +2,6 @@
   "regexManagers": [{
     "fileMatch": ["\\.pp$"],
     "matchStrings": ["profile::(?<depName>.*?)::common::version: pritunl (?<currentValue>.*?) #(?<datasource>.*?): (?<lookupName>.*?)\n"],
-    "versioningTemplate": "regex:^(?<major>\\d+)(\\.(?<minor>\\d+))?(\\.(?<patch>\\d+))?(.(?<compatibility>.*))?$",
+    "versioningTemplate": "regex:^(?<major>\\d+)(\\.(?<minor>\\d+))?(\\.(?<patch>\\d+))?(.(?<compatibility>.*))?$"
   }]
 }
